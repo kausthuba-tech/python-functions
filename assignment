@@ -1,0 +1,50 @@
+A. Write a function named same that takes a string as input, and simply returns that string.
+
+def same(s1):
+    return s1
+same("Hello")
+
+B. Write a function called same_thing that returns the parameter, unchanged.
+
+def same_thing(x):
+    print('Welcome')
+    return x
+same_thing(5)
+
+C. Write a function called subtract_three that takes an integer or any number as input, and returns that number minus three.
+
+def subtract_three(x):
+    print(x)
+    return x-3
+subtract_three(5)
+
+D. Write a function called change that takes one number as its input and returns that number, plus 7
+
+def change(x):
+    print(x)
+    return x+7
+change(5)
+
+E. Write a function named intro that takes a string as input. Given the string “Becky” as input, the function should return: “Hello, my name is Becky and I love SI 106.”
+
+def intro(s1):
+    return "Hello, my name is {} and I love SI 106.".format(s1)
+intro("Mike")
+
+F. Write a function called s_change that takes one string as input and returns that string, concatenated with the string ” for fun.”.
+
+def s_change(x):
+    return x + " for fun."
+    print(x)
+s_change("We")
+
+G. Write a function called decision that takes a string as input, and then checks the number of characters. If it has over 17 characters, return “This is a long string”, if it is shorter or has 17 characters, return “This is a short string”
+
+def decision(x):
+    if len(x)>17:
+        return "This is a long string"
+        return x
+    else:
+        return "This is a short string"
+        return x
+decision("Hello")
